@@ -14,7 +14,7 @@
 ## Setup
 
 1. Clone the repo
-2. Install dependencies:
-   ```bash
-   pip install django
-   ```
+2. Create virtualenv: `python -m venv venv`
+3. Install requirements: `pip install -r requirements.txt`
+4. Run migrations: `python manage.py migrate`
+5. Start server: `python manage.py runserver`
