@@ -13,8 +13,16 @@
 
 ## Setup
 
-1. Clone the repo
-2. Create virtualenv: `python -m venv venv`
-3. Install requirements: `pip install -r requirements.txt`
-4. Run migrations: `python manage.py migrate`
-5. Start server: `python manage.py runserver`
+## Setup
+1. Clone the repo:
+   ```bash
+   git clone https:/Sainvi-j/github.com//blog-api.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the server:
+   ```bash
+   python manage.py runserver
+   ```
